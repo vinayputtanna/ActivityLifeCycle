@@ -35,4 +35,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onRestart(){
         super.onRestart();
     }
+
+    @Override
+    protected void onDestroy(){
+        super.onDestroy();
+    }
 }
